@@ -13,24 +13,12 @@ def read_data(filename):
     return pyramid
 
 
-def find_maxes(nums):
-    return [max(x) for x in nums]
+def row_max_indexes(pyramid):
+    return [x.index(max(x)) for x in pyramid]
 
-def find_max_indexes(nums):
-    return [nums[x].index(max(nums[x])) for x in nums]
-
-
-def max_path_sum(pyramid):
-    answer = 0
-    
-    for row in pyramid:
-        for element in row:
-            pass
-    
-    return answer
-
+def calc_answer(pyramid):
+    return sum([])
 
 if __name__ == "__main__":
     pyramid = read_data("input.txt")
-    answer = find_max_indexes(pyramid)
-    print(answer)
+    print(row_max_indexes(pyramid))
