@@ -1,10 +1,7 @@
-# My project Euler Solutions!
+# My project Euler Solutions
 
-## These are the solutions to my project Euler problems!
----
+I mostly use OCaml to write my solutions to force myself to provide a mathematical solution (and LLMs are bad at it)
 
-I use C++ and Python to solve the problems
+Some older solutions are in python
 
-Sorry If I skipped some of the problems. Some of the ealier ones can just be solved with a list comprehension in python
-
-There will also be a lot of comments
+Sorry If I skipped some of the problems. Some of the earlier ones can just be solved with a list comprehension in python
