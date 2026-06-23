@@ -2,7 +2,7 @@
 
 import math
 
-# stolen form geeksforgeeks
+# stolen form geeksforgeeks 
 def sum_of_divisors(n):
     if n <= 1:
         return 0
@@ -23,6 +23,7 @@ def evaluate():
     abundants = [i for i in range(12, 28123) if sum_of_divisors(i)]
     
     for i, a in enumerate(abundants):
+        pass
         
     return acc
 
