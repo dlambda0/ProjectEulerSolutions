@@ -15,7 +15,6 @@ def find_pythagorean_triplet(num=1000) -> tuple[int, int, int]:
                 return a, b, c
     return None
 
-
 if __name__ == "__main__":
     triplet = find_pythagorean_triplet()
     product = prod(triplet)
